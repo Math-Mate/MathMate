@@ -1,0 +1,93 @@
+
+.dnd-operation-container {
+
+    position: relative;
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.dnd-operation-container-left {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+
+.dnd-operation-container-left-top {
+
+    height: 20%;
+}
+
+.dnd-operation-container-left-bottom {
+    height: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dnd-operation-container-left .icon-addition {
+    width: 100px;
+    height: 100px;
+
+}
+
+.box-full-of-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+
+.dnd-operation-container-left-top button{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightyellow;
+}
+.dnd-operation-container-left-top .button-container {
+    margin-left: 300px;
+}
+
+.dnd-operation-container-right {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.basket-source {
+
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+
+}
+
+.basket-target {
+    position: relative;
+    top: 30px;
+    left: 300px;
+    /* background-image: url("../../assets/basket.png"); */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}

@@ -6,12 +6,12 @@ function AdditionPage() {
 
   const goToDragDropAdd = () => {
     // Use navigate('/dragDropAdd') to navigate to DragDropAdd Page
-    navigate('/dragDropAdd');
+    navigate('/addition/dnd');
   };
 
   const goToSimpleAdd = () => {
     // Use navigate('/simpleAdd') to navigate to SimpleAdd Page
-    navigate('/simpleAdd');
+    navigate('/addition/simple');
   };
 
   return (

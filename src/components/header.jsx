@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <>
             <header className="App-header">
-                <h1>Welcome to MathMate</h1>
+                <span>Welcome to MathMate</span>
             </header>
         </>
     )

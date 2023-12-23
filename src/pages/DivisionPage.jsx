@@ -1,6 +1,4 @@
-// src/pages/AdditionPage.js
 
-import './styles/DragDropAdd.css';
 function DivisionPage() {
   return (
     <div>
